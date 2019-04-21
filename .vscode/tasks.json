@@ -7,6 +7,11 @@
 			"label": "run wav_gen",
 			"type": "shell",
 			"command": "python wav_gen.py",
+		},
+		{
+			"label": "run scanner",
+			"type": "shell",
+			"command": "pipenv run python scanner.py",
 			"group": {
 				"kind": "build",
 				"isDefault": true

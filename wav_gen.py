@@ -1,14 +1,12 @@
 #!/usr/bin/python
 # based on : www.daniweb.com/code/snippet263775.html
+# based on: https://stackoverflow.com/questions/33879523/python-how-can-i-generate-a-wav-file-with-beeps
+
 import math
 import wave
 import struct
 from random import random
 
-# Audio will contain a long list of samples (i.e. floating point numbers describing the
-# waveform).  If you were working with a very long sound you'd want to stream this to
-# disk instead of buffering it all in memory list this.  But most sounds will fit in
-# memory.
 sample_rate = 9600
 
 
